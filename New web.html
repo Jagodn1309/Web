@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electrical Engineer Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77d1f6 3px solid;
+        }
+        header a, header h1 {
+            float: left;
+            display: inline-block;
+            margin: 0;
+            padding: 0 20px;
+            color: #fff;
+            text-decoration: none;
+        }
+        header ul {
+            list-style: none;
+            float: right;
+        }
+        header ul li {
+            display: inline;
+            margin: 0 5px;
+        }
+        header ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .contact-form {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form h2 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Electrical Engineer</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Brief introduction about yourself, your skills, and your experience.</p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Details about some of your key projects, what you did, and the impact.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <div class="contact-form">
+                <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="5" required></textarea><br>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
